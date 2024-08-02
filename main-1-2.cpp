@@ -1,7 +1,8 @@
-
 #include <iostream>
 
-extern int main() {
+extern int is_identity(int array[10][10]);
+
+int main() {
     int matrix[10][10] = {
         {1, 0, 0, 0, 0, 0, 0, 0, 0, 0},
         {0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
