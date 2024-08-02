@@ -6,7 +6,7 @@ void print_scaled(int array[3][3],int scale){
         for(int j = 0; j < 3; j++){
             std::cout << array[i][j] * scale;
             if (j < 2) {
-                std::cout << " "; // Space between elements in a row
+                std::cout << " ";
             }
         }
         std::cout << std::endl;        
