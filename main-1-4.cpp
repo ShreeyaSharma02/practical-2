@@ -1,4 +1,5 @@
 #include <iostream>
+
 extern int main() {
     int scale = 3;
     int threebythree[3][3] = {
